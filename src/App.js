@@ -15,7 +15,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/petmat">
         <div>
           <Media query="(max-width: 900px)">
             {matches => (matches ? <CollapsedNavbar /> : <CustomNavbar />)}
