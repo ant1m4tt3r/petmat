@@ -1,0 +1,14 @@
+.app-content {
+    margin-top: 10%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .app-content {
+        margin-top: 20%;
+    }
+}

@@ -1,0 +1,82 @@
+.navbar {
+    padding: 30px 8.33%;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    transition: top 1s ease;
+    color: white !important;
+    box-shadow: none;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 0.8em;
+}
+
+/*text*/
+
+.text-white,
+.text-white-hover:hover {
+    color: #fff!important
+}
+
+
+/* effects */
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 0.063em;
+    font-size: 0.75em;
+    padding-bottom: 10px;
+}
+
+.effect ul li a::before {
+    -webkit-transition: width .25s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+    -o-transition: width .25s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+    transition: width .25s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+    background: #845EC2;
+}
+
+.effect ul li a::after,
+.effect ul li a::before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 0;
+    right: 0;
+    height: 3px;
+}
+
+.effect ul li a.active:after {
+    background: #2FFFAD;
+    width: 100%;
+    left: 0;
+}
+
+.effect ul li a:hover::after,
+.effect ul li a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.effect ul li a::after {
+    -webkit-transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+    -o-transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+    transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+    background: #2FFFAD;
+}
+
+.effect ul li a::after,
+.effect ul li a::before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 0;
+    right: 0;
+    height: 3px;
+}
