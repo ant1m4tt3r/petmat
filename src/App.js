@@ -13,6 +13,10 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 class App extends Component {
+  componentDidMount() {
+    document.title = "PETMAT - UFOP";
+  }
+
   render() {
     return (
       <BrowserRouter basename="/petmat">

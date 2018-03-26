@@ -6,6 +6,7 @@
     transition: top 1s ease;
     color: white !important;
     box-shadow: none;
+    z-index: 100;
 }
 
 .navbar-brand {

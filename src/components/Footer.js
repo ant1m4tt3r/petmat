@@ -1,12 +1,17 @@
 import React, { Component } from "react";
 
-import './Footer.css';
+import "./Footer.css";
 
 class Footer extends Component {
   render() {
     return (
       <div className="credits">
-        <span>Feito por Hugo Azevedo</span>
+        <span>
+          Feito por{" "}
+          <a href="https://hugoazevedosoares.github.io/" target="_blank">
+            Hugo Azevedo
+          </a>
+        </span>
       </div>
     );
   }

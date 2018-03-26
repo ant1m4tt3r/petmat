@@ -7,6 +7,20 @@
     justify-content: space-between;
 }
 
+.input {
+    color: #828282;
+    letter-spacing: 0.15em;
+}
+
+.result {
+    letter-spacing: 0.08em;
+    padding-top: 1em;
+}
+
+a:visited, a:focus, a:active {
+    color: #9acd91
+}
+
 @media screen and (max-width: 768px) {
     .app-content {
         margin-top: 20%;
